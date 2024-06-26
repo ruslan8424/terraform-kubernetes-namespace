@@ -17,4 +17,10 @@ variable annotations  {
   default = {} 
 }
 
+variable pod_limit {
+  default     = 100
+  description = "The max number of pods that can be created in the namespace"
+}
+
+
 
